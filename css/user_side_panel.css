@@ -1,0 +1,102 @@
+#user_side_panel {
+    box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+    color:white;
+    width:7cm;
+    background-color:#052963;
+    float:left;
+    position: absolute;
+    left:0;
+}
+
+#empty {
+    box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+    z-index: -1;
+    width:7cm;
+    height:100%;
+    position: fixed;
+    float:left;
+    left:0;
+    background-color:#052963;
+}
+
+#welcome {
+    background-color: #002561;
+    text-align: center;
+    color:white;
+    font-size: 30;
+    font-weight: 300;
+}
+
+.information {
+    color:deepskyblue;
+    background-color: white;
+    font-style: oblique;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.user_image, img{
+    border-style:solid;
+    border-color: black;
+    width:2cm;
+    height:2cm;
+    border-radius:100%;
+}
+
+/*all ul*/
+.information, .change_information, .board_operation, .staff_operation{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.information {
+    color:deepskyblue;    
+}
+
+#board_member_operation hr, #staff_member_operation hr{
+    color:black;
+    width:90%;
+    border-style: inset;
+}
+
+/*all li*/
+.information li, .change_information li, .board_operation li, .staff_operation li{
+    height:1.2cm;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.information ul a{
+    text-decoration: none;
+}
+
+.change_information li, .board_operation li,  .staff_operation li { 
+    border-bottom: 1px ridge rgba(6, 26, 68, 0.96);
+    border-left: 4px solid #052963;
+}
+
+.board_operation li:first-child, .staff_operation li:first-child {
+     border-top: 1px ridge rgba(6, 26, 68, 0.96);
+}
+
+/*all link*/
+.change_information a, .board_operation a, .staff_operation a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    padding: 13px 20px;
+    color:white;
+}
+
+#board_member_operation p, #staff_member_operation p{
+    text-align: center;
+    color:azure;
+}
+
+.board_operation li:hover, .change_information li:hover, .staff_operation li:hover {
+    border-left: 4px solid deepskyblue;
+}

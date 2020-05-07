@@ -1,0 +1,166 @@
+/*all content*/
+#container {
+    padding-left: 7cm;
+}
+
+/*title*/
+h1 {
+    text-align: center;
+   background-color: ; 
+}
+
+/*navigator*/
+.navigation {
+    width:100%;
+    height:1cm;
+    box-shadow: 1px 1px 10px 0px gray;
+    background-color: deepskyblue;
+}
+
+.navigation p{
+    position:relative;
+    bottom:0.4cm;
+}
+/*option links*/
+.navigation a, .navigation span {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    cursor: pointer;
+    color:red;
+}
+
+/*options in navigator*/
+.navigation_head, .option_masterfood, .option_and, .option_beverage{
+    padding-right: 0.1cm;
+    padding-left: 0.1cm;
+    float:left;
+    height: 0.8cm;
+    position: relative;
+    top:0.2cm;
+}
+
+/*all list*/
+.list {
+    height:10cm;
+    overflow-y:auto;
+}
+
+/*update_photo*/
+#update_photo {
+    height:5cm;
+}
+
+/*table*/
+
+table {
+    width:100%;
+    border:solid;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+ table th {
+     border-width: 1px;
+     padding: 8px;
+     border-style: solid;
+     border-color: #a9c6c9;
+
+ }
+ table td {
+     border-width: 1px;
+     padding: 8px;
+     border-style: solid;
+     border-color: #a9c6c9;
+ }
+
+ table tr:nth-child(2n+1){
+     background-color:#d4e3e5;
+ }
+ table tr:nth-child(2n) {
+     background-color:#c3dde0;
+ }
+
+/*button in list*/
+.list input {
+    width:1.6cm;
+    height:0.5cm;
+    border:none;
+    color:white;
+}
+
+.delete_button, .remove_button {
+    background-color: red;
+}
+
+.delete_button {
+    position:relative;
+    top:0.2cm;
+}
+
+.edit_button, .add_button {
+    background-color: yellowgreen;  
+}
+
+.list input:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+/*all input in operation area*/
+
+#add_operation_area input, #edit_area input, select { 
+    width: 8cm;
+    height:1cm;
+}
+
+#add_operation_area input[type='submit'], #add_operation_area input[type='button'], #edit_area input[type='button'], #edit_area input[type='submit']{
+    background-color: deepskyblue;
+    border:none;
+    color:white;
+    font-size: 1.3em;
+}
+
+#add_operation_area input[type='button'], #edit_area input[type='button'] {
+    background-color: lightgray;
+}
+
+#add_operation_area input[type='button']:hover, #edit_area input[type='button']:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+#add_operation_area input[type='submit']:hover, #edit_area input[type='submit']:hover {
+    cursor: pointer;
+    background-color:red;
+}
+
+/*date form*/
+#date_form {
+    position: relative;
+    top:0.2cm;
+    float: right;
+    height:0.51cm;
+}
+/*submit  date*/
+#s_date {
+    position: relative;
+    top:0.2cm;
+    color:dimgray;
+}
+
+/*submit time*/
+#submit_time {
+    width:8cm;
+    height:1cm;
+    background-color: deepskyblue;
+    border:none;
+}
+
+#submit_time:hover {
+    background-color: red;
+}

@@ -1,0 +1,149 @@
+/*main content*/
+body {
+    background-image: url(../img/account.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 30cm;
+    margin:auto;
+}
+
+.main h1{
+  font-size:2.5em;
+  text-align: center;
+  font-weight:500;
+}
+
+.profile, .charge_area{
+    position: relative;
+	width:12cm;
+	margin:0 auto;
+    box-shadow: 0px 0px 10px 0px rgb(58, 41, 31);
+    height:15cm;
+    background-color: white;
+    transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+.profile {
+    margin-left: 4cm;
+}
+
+.charge_area {
+    z-index: -1;
+    bottom:14.5cm;
+    margin-right: 1cm;
+    opacity: 0.5;
+}
+
+.profile-top{
+	background:#1a2c4d;
+    height:2.5cm;
+	padding:1.5cm;
+}
+
+/*head picture*/
+.pic{
+	float:left;
+    width:25%;
+}
+
+.pic img{
+	width:100%;
+    height:90%;
+	border-radius:50%;
+	border:5px solid #fff;
+}
+
+.pic_info{
+	float:left;
+	width:65%;
+	margin-left:10%;
+	text-align:left;
+    color:white;
+}
+
+.profile {
+    margin-top:2cm;
+}
+
+/*all li in the profile*/
+#detail {
+    padding:0;
+    margin:0;
+}
+
+.profile ul li{
+    list-style: none;
+    text-align: left;
+	border-bottom:1px ridge #DFDFDF;;
+}
+
+.profile ul li a {
+    text-decoration: none;
+}
+
+/*all links in list*/
+.profile-bottom a{
+    color:inherit;
+}
+
+#detail li {
+    padding: 17px 20px;
+	background:#f5f5f5;
+	color:#8c8c8c;
+	font-size:1.1em;	
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+#detail li:hover {
+    color:white;
+	background: #1a2c4d;
+}
+
+/*form*/
+#charge {
+    padding-top: 2cm;
+}
+
+.info {
+    text-align: center;
+}
+
+.charge_area input {
+    width:8cm;
+    height: 1cm;
+    margin-left: 2cm;
+}
+
+.charge_area input[type=submit]{
+    border:none;
+    color: white;
+    font-size: 1.4em;
+    background-color:deepskyblue;
+    
+}
+
+.charge_area input[type=button] {
+    border:none;
+    color: white;
+    font-size: 1.4em;
+    background-color:lightgray;
+}
+
+.charge_area input[type=submit]:hover {
+    cursor: pointer;
+    background-color:red;
+}
+
+.charge_area input[type=button]:hover {
+    cursor: pointer;
+    background-color:gray;
+}

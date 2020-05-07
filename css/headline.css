@@ -1,0 +1,170 @@
+/*header*/
+#headline {
+    background-color:deepskyblue;
+}
+
+/*all list*/
+#headline ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#headline li
+{
+    padding-right: 1cm;
+    display:inline;
+}
+
+/*The postion of lgonin title*/
+#logbutton {
+    position:absolute;
+    right:3.65cm;
+}
+
+/*The postion of the string between login and register title*/
+#tstring {
+    position:absolute;
+    right:3.3cm;
+}
+
+/*The postion of register title*/
+#tregister {
+    position:absolute;
+    right:1cm;
+}
+
+/*all link and span*/
+#headline a,span{
+    color: white;
+    text-decoration: none;
+}
+
+/*Dropdown choice*/
+#dropdown { 
+    z-index: 1;
+    position:absolute;
+    left: 1cm;
+    text-align: center;
+    display:none;
+    background-color: deepskyblue;
+}
+
+#dropdown fieldset{
+    height:4cm;
+    border-style:none;
+}
+
+#dropdown ul {
+    padding: 0cm 0cm;
+    list-style-type: none; 
+}
+
+#dropdown li{
+    position:relative;
+    bottom:0.4cm;
+    padding:0.3cm 0cm 0cm;
+}
+
+#dropdown a{
+    color:white;
+    text-decoration: none;
+}
+
+/*login area*/
+#loginBox {
+    z-index: 1;
+    display: none;
+    width:7.8cm;
+    position:absolute;
+    right:3.3cm;
+}
+
+#logbody {
+    background-color: white;
+    color:darkgray;
+    height: 5.5cm;
+}
+
+#logbody fieldset {
+    border:0;    
+}
+
+/*ID input*/
+#fid {
+    height:2cm;
+}
+
+#fid input {
+    position:relative;
+    height:0.8cm;
+    width:6cm;
+}
+
+/*password input*/
+#fpass {
+    position:relative;
+    bottom:0.8cm;
+}
+
+#fpass input {
+    height:0.8cm;
+    width:6cm;
+    vertical-align:bottom;
+}
+
+/*sighn in button*/
+#login {
+    position:relative;
+    bottom:0.5cm;
+    vertical-align:top;
+}
+
+#login input{
+    background-color:deepskyblue;
+    border:none;
+    color:white;
+    vertical-align:bottom;
+    width:6cm;
+    height:0.8cm;
+    font-size: 1em;
+}
+
+/*forget password link*/
+#forget_password {
+    position: relative;
+    bottom: 0.4cm;
+    left:1.6cm;
+    color:gray;
+}
+
+/*log out area*/
+#afterlogin {
+    z-index: 1;
+    display: none;
+    position:absolute;
+    right:3.3cm;
+}
+
+#flogout {
+    background-color:white;
+    height:3cm;
+    width:7cm; 
+}
+
+/*log out button*/
+#flogout input{
+    background-color:deepskyblue;
+    border:none;
+    color:white;
+    width:6cm;
+    height:0.8cm;
+    margin-left: 0.5cm;
+}
+
+/*text in logout area*/
+#flogout p {
+    text-align: center;
+}
+
+

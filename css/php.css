@@ -1,0 +1,17 @@
+/*css for medium php pages*/
+
+body {
+    background-image: url(../img/php.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p {
+    text-align: center;
+    font-size: 2em;
+    color:red;
+    box-shadow: 1px 1px 10px 0px gray;
+    width:40%;
+    margin:auto;
+    background-color: floralwhite;
+}

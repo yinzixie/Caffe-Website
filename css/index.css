@@ -1,0 +1,72 @@
+body {
+    background-image: url(../img/homepage.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+h1{
+    text-align:center;
+    color: white;
+    font-size: 100px;
+    font-family: 'Edwardian Script ITC';
+}
+
+/*cafe links*/
+.list {
+    list-style-type: none;
+    text-align:center;
+    margin:auto;
+    font-family:Harrington ;
+    font-size: 30px; 
+}
+
+/*cafe links*/
+#choice a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#choice1 {
+    color:fuchsia;
+}
+
+#choice2 {
+    color:dodgerblue;
+}
+
+#choice3 {
+    color:brown;
+}
+
+#choice4 {
+    color:forestgreen;
+}
+
+#choice5 {
+    color:blanchedalmond;
+}
+
+#choice1:hover {
+    cursor: pointer;
+    color:yellow;
+}
+
+#choice2:hover {
+    cursor: pointer;
+    color:yellow;
+}
+
+#choice3:hover {
+    cursor: pointer;
+    color:yellow;
+}
+
+#choice4:hover {
+    cursor: pointer;
+    color:yellow;
+}
+
+#choice5:hover {
+    cursor: pointer;
+    color:yellow;
+}

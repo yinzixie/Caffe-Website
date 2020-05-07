@@ -1,0 +1,236 @@
+/*title*/
+#title {
+text-align: center;    
+font-family: 'Segoe Script';
+}
+
+/*name of cafe store*/
+h1 {
+    font-size:70;
+}
+
+/*business time*/
+p1 {
+    font-size:40;
+    color:red;  
+}
+
+/*welcome text*/
+p2 {
+    font-size:60;  
+    color:deeppink;
+}
+
+/*discount information*/
+p3 span{
+color:red;    
+}
+
+/*boundary*/
+#header_line{
+    border-top:10px groove skyblue;
+}
+
+/*links*/
+a{
+    text-decoration: none;    
+}
+
+.container {
+    width:80%;
+    margin: auto;
+}
+
+/*trolley*/
+.trolley {
+    width:7cm;;
+    float:left;
+    padding-bottom: 3cm;
+}
+
+/*account balance*/
+#show_account_money{
+    color:red;
+}
+
+/*all span in trolley calss*/
+.trolley span {
+    color:red;
+}
+
+.cart_iteam_price span {
+    color:red;
+}
+
+/*boundary*/
+.trolley_line { 
+    height:1px;
+    border:none;
+    border-top:1px solid lightgray;
+}
+
+/*products' information in trolley*/
+.trolley_iteam fieldset {
+    border:none;
+}
+
+.cart_iteam_price {
+    color:red;
+    float:left;
+}
+
+.cart_iteam_amount{
+    width: 1.5cm;
+    font-size: 17px;
+    position: relative;
+    left:0.1cm;
+    border:none;
+    color:red;
+}
+
+/*remove button*/
+.cart_iteam_remove {
+    float:right;
+    width:0.8cm;
+    height:0.8cm;
+    border-radius: 0.5cm;
+    position: relative;
+    bottom:2.2cm;
+    background-color:transparent;
+    text-align: center;
+}
+
+.cart_iteam_remove_button{
+    color:red;
+    position: relative;
+    top:0.1cm;
+}
+
+/*comment area*/
+.cart_iteam_require {
+    width:100%;
+    position: relative;
+}
+
+.input_iteam_require {
+    width:100%;
+    height:1cm;
+}
+
+/*submit area*/
+#trolley_submit {
+    border:none;
+    width:45%;
+    height:1cm;
+    background-color: deepskyblue;
+    color:white;
+    position: relative;
+    left:0.6cm;
+}
+
+/*clean button*/
+#clean_cart {
+    border:none;
+    width:45%;
+    height:1cm;
+    background-color:limegreen;
+    color:white; 
+}
+
+/*headline for menu*/
+.menu_option {
+    float: left;
+    width:75%;
+    background-color:deepskyblue;
+    position: relative;
+    left:2cm;
+    padding-top: 6px;
+}
+
+.menu_option a{
+    color:white;
+}
+
+#option_masterfood {
+    float:left;  
+    position: relative;
+    left:1cm;
+}
+
+.menu_option #sign{
+    float:left;
+    position: relative;
+    left:1.3cm;
+    
+}
+
+#option_beverage {
+    float:left;
+    position: relative;
+    left:1.6cm;
+}
+
+.masterfood, .beverage{
+    position: relative;
+    top:1cm;
+    left:1.5cm;
+    display:none;
+}
+
+/*product*/
+.product {
+    position: relative;
+    left:1%;
+    float:left;  
+    margin: 30px;
+    height:8cm;
+}
+
+img {
+    width:6.5cm;
+    height:4.5cm;
+}
+
+.inner {
+    text-align: center;
+    height:4cm;
+}
+
+.decoration {
+    position: relative;
+    bottom:0.8cm;
+    background-color:white;
+    height:1.6cm;
+    width:1.6cm;
+    border-radius: 0.8cm;
+}
+
+.product_add_button{
+    position: relative;
+    top:0.15cm;
+    height:1.3cm;
+    width:1.3cm;
+    border-radius: 0.65cm;
+    background-color: deeppink;  
+}
+
+.product_add_button a {
+    position: relative;
+    top:0.3cm;
+    color:white;
+    font-size:17px;
+}
+
+.product_introduction {
+    position: relative;
+    bottom:1.41cm;
+}
+
+.product-title {
+    position: relative;
+    bottom:0.8cm;
+}
+
+.product_price {
+    color:red;
+}

@@ -1,0 +1,64 @@
+body {
+    background-image:url("./img/register.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+h1 {
+    text-align:center;
+    color: red;
+    font-size: 6em;
+    font-family: Mistral;
+}
+
+h2 {
+    text-align:center;
+    font-family:fantasy;
+    font-size: 2em;
+    color:red;
+}
+
+#signupfieldset {
+    width:15cm;
+    margin:auto;
+    background-color: white;
+}
+
+#signupfieldset input {
+    width:10cm;
+    height:0.8cm;
+    margin-bottom: 0.2cm;
+    border-radius: 2%;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+
+#submit {
+    background-color: deepskyblue;
+    color:white;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: red;
+    border-color: red;
+}
+
+legend {
+    color:deepskyblue;
+}
+
+.hint_wrong {
+    color:red;
+    position: relative;
+    left:0.1cm;
+}
+
+.hint_right {
+    color:green;
+    position: relative;
+    left:0.5cm;
+}
+
+
